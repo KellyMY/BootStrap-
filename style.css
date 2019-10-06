@@ -1,0 +1,21 @@
+.colorBlue{
+	color: #31DACF;
+}
+.acima{
+	display:inline-block;
+    position:relative;
+}
+.sobre{
+	position:absolute;
+    z-index:1;
+    top:85%;
+    left:85%;            /* altura para o botão */
+    padding:15px;
+    margin: 0;   /* margem à esquerda e ao topo metade da medida do botão */
+    border:0 none;
+    background:#31DACF;
+    color:white;
+}
+.sobre:hover{
+	color: #31DACF;
+}
