@@ -15,7 +15,39 @@
     border:0 none;
     background:#31DACF;
     color:white;
+    outline: none;
 }
 .sobre:hover{
 	color: #31DACF;
 }
+.colorGray{
+    background:#F2F3F4;
+}
+.bordaBottom{
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+}
+.bordaBottom:hover{
+    border-bottom: 1px solid #17A589;
+}
+
+.abrirsub{
+    display: none;
+}
+
+.abrirsub:hover{
+    display: block;
+}
+.colorBlack{
+    background: black;
+}
+.colorWhite{
+    color: white;
+    outline: none;
+    text-align: center;
+}
+
+/*.toque:hover{
+    color: #17A589;
+}*/

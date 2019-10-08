@@ -4,6 +4,7 @@
 		<meta charset="utf-8"/>
 		<link rel="stylesheet" href="arquivos/css/bootstrap.min.css">
 		<link rel="stylesheet" href="style.css">
+		<title>Tecnologia</title>
 		<script src="https://kit.fontawesome.com/ace95e225b.js" crossorigin="anonymous"></script>
 	</head>
 	<body>
@@ -20,34 +21,87 @@
 				<ul class="navbar-nav mr-auto">
 					<li class="nav-item"><a class="nav-link" href="">Home</a></li>
 					<li class="nav-item"><a class="nav-link" href="">Notícias</a></li>
-					<li class="nav-item droopdown">
-						<a class="nav-link dropdown-toggle" href="#sub">Categoria</a>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#navbarSupportedContent">Categoria</a>
 							<div class="dropdown-menu" aria-labelledby="navbarDropdown" id="sub">
-							<a class="dropdown-item" href="" >Aquáticos</a>
-							<a class="dropdown-teim" href="" >Terrestres</a>
-							<a class="dropdaown-item" href="">Aves</a>
-							<a class="dropdown-item" href="">Vida em dois</a>
+								<a class="dropdown-item" href="" >Aquáticos</a>
+								<a class="dropdown-item" href="" >Terrestres</a>
+								<a class="dropdown-item" href="">Aves</a>
+								<a class="dropdown-item" href="">Vida em dois</a>
 							</div>
 						</li>
 					<li class="nav-item"><a class="nav-link" href="">Contato</a></li>
 					<li class="nav-item"><a class="nav-link" href="">Sobre nos</a></li>
+					<li class="nav-item"><a class="nav-link" href="">Login</a></li>
+					<li class="nav-item"><a class="nav-link" href="Cadastro/Cadastro.html">Cadastro</a></li>
 				</ul>
+			</div>
+			<div class="form-group">
+				<input class="form-controle bordaBottom" placeholder="Pesquise!"/>
 			</div>
 		</nav>
 		<div class="container">
 			<nav aria-label="breadcrumb">
-				Local em que se encontra
-				<ol class="breadcrumb">
+				<ol class="breadcrumb colorGray">
 					<li class="breadcrumb-item active" aria-current="page">Home</li>
 					<li class="breadcrumb-item" aria-current="page"></li>
 				</ol>
 			</nav>
 		</div>
 		<div class="container-fluid">
-			<div class=" acima">
+		<!--	<div class=" acima">
 				<img src="image/image1.jpg" width="100%" height="100%">
 				<button class="btn btn-light sobre">Saiba mais</button>
-			</div>
+			</div>-->
 		</div>
+		<section>
+			<div class="bd-example">
+				<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+					<ol class="carousel-indicators">
+						<li data-target="#carouselExampleCaptions" data-slide-to="0" class="active" id="slide"></li>
+						<li data-target="#carouselExampleCaptions" data-slide-to="1" class></li>
+						<li data-target="#carouselExampleCaptions" data-slide-to="2" class></li>
+					</ol>
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<img src="image/image1.jpg" class="d-block w-100" alt="1">
+							<div class="carousel-caption d-none d-md-block">
+								<h5>primeira imagem</h5>
+								<p>Primeira parte</p>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<img src="image/image2.jpg" class="d-block w-100" alt="1">
+							<div class="carousel-caption d-none d-md-block">
+								<h5>Segundo </h5>
+								<p>Segunda parte</p>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<img src="image/image3.jpg" class="d-block w-100" alt="1">
+							<div class="carousel-caption d-none d-md-block">
+								<h5>Terceiro</h5>
+								<p>Terceira parte</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="sr-only">Anterior</span>
+				</a>
+				<a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="sr-only">Proximo</span>
+				</a>
+			</div>
+		</section>
+
+		<footer class="container-fluid colorBlack">
+			<p class="colorWhite">Direitos reservados</p>
+		</footer>
+		<script src= "arquivos/js/jquery-3.4.1.min.js"></script>
+		<script src= "arquivos/js/bootstrap.min.js"></script>
+		<script src="javaSIndex.js"></script>
 	</body>
 </html>

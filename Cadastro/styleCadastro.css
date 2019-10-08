@@ -1,0 +1,31 @@
+.fixo{
+    position: fixed;
+}
+.centroFrente{
+    position: relative;
+    text-align: center;
+    top: -600px;
+}
+.borda{
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+}
+.borda:hover{
+    border: none;
+    border-bottom: 1px solid #17A589;
+}
+.botao{
+    outline: none;
+    background:#31DACF;
+    color:white;
+}
+.botao:hover{
+    color:#31DACF;
+}
+.marginDireita{
+    margin-right: 10px;
+}
+.marginBottom{
+    margin-bottom: 15px;
+}
