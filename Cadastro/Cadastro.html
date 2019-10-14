@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8"/>
-        <title>Login</title>
+        <title>Cadastro</title>
         <link rel="stylesheet" href="arquivos/css/bootstrap.min.css"/>
         <link rel="stylesheet" href="styleCadastro.css"/>
     </head>
@@ -27,14 +27,14 @@
                     <div>
                     </div>
                     <div>
-                        <button class="btn btn-light botao marginBottom">Entrar</button>
+                        <button class="btn btn-light botao marginBottom" onclick="paginaInicial()">Cadastrar</button>
                     </div>
                 </form>
             </div>
         </div>
         <script>
-        if(window.open){
-            window.location.href=
+        function paginaInicial(){
+            window.location.href="PaginaInicialLogin.html";
         }
         </script>
     </body>
